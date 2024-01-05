@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h1{
+    color: white; 
+    text-align: center;
+}
+
+.hc{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: 35px;
+    
+}
+
+.hc::after {
+    content: '|';
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: piscapisca .5s infinite;
+  }
+
+  @keyframes piscapisca {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+
+.image2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.image1{
+    float: right;
+    padding-left: 15px;
+    max-width: 600px;
+    max-height: 400px;
+}
+
+h2{
+    padding-bottom: 50px;
+    text-align: center !important;
+}
+
+h3{
+    text-align: center !important;
+    padding-bottom: 40px;
+}
+
+h5{
+    padding-top: 30px;
+    text-align: center !important;
+}
+
+.Container{
+    width: 100%;
+    background: linear-gradient(to right, #120c56, #0126ab);
+
+    
+    
+}
+
+.praias{
+  padding: 5px;
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+}
+
+.intro{
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+
+.historia{
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+
+
+
+.turismo{
+    padding-top: 50px;
+}
+
+p{
+    font-size: 17px;
+}
+
+.havana{
+    text-align: center;
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+
+.carousel-inner{
+    max-width: 70%;
+    max-height: 40%;
+    margin: auto;
+}
+
+.img{
+    margin: auto;
+    text-align: center;
+}
+
